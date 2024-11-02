@@ -7,7 +7,7 @@
 <br>
 
 # Nome do projeto
-Enterprise Challenge - Sprint 1 - Solubio
+Cap 10 - Explorando SQL e tipos de dados na Oracle
 
 ## Nome do grupo
 Grupo 41
