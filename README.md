@@ -50,6 +50,15 @@ Foram realizadas as seguintes tarefas para a construção das consultas SQL:
 
 *Exemplo da consulta de produtividade da cultura algodão no periodo 2024-2025 por estados"
 
+Conforme solicitado, os 5 pontos solicitados encontram-se na seguinte estrutura de pastas: 
+- document: Dicionário de dados.
+- scripts: Geração de tabelas com suas relações e o script de consultas SQL.
+- src: Modelagens de dados onde estão o diagrama de modelo relacional e o diagrama de entidade relacionamento MER.
+  
+<img width="227" alt="image" src="https://github.com/user-attachments/assets/dc9e40a9-2f7b-41a3-8ca5-e3560c8dd414">
+
+
+
 ## 📁 Estrutura de pastas
 
 Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
