@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tipifica" directorySegmentName="seg_0" id="D0A3F660-F617-E7B7-8F99-096A2D7AC222">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-24 19:42:59 UTC</createdTime>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<engineerTo>
+<item key="1FAD93A5-61CE-92D8-3CD2-779C439119F8" value="true"/>
+</engineerTo>
+<sourcePk>D2977DB4-D224-626A-5131-AB06D0CEE384</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4F2D3187-8266-FA02-E7D7-D72AFBD3505D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>66395507-680D-FC3B-6B90-C8C186C8FFFD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

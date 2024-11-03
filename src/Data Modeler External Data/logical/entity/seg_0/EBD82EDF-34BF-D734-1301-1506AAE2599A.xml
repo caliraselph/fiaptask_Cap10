@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EBD82EDF-34BF-D734-1301-1506AAE2599A" name="T_CNF_REGIAO">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-24 17:13:05 UTC</createdTime>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<engineerTo>
+<item key="1FAD93A5-61CE-92D8-3CD2-779C439119F8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_regiao" id="BBB61C38-9B96-C940-8885-533090061FE4">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-24 18:45:38 UTC</createdTime>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<engineerTo>
+<item key="1FAD93A5-61CE-92D8-3CD2-779C439119F8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_pais" id="B199FAC9-EC06-DBCA-AC0F-E2959B512E3C">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-24 18:49:16 UTC</createdTime>
+<generatorID>B2B86220-7696-54AC-F892-335533070522</generatorID>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<engineerTo>
+<item key="1FAD93A5-61CE-92D8-3CD2-779C439119F8" value="true"/>
+</engineerTo>
+<referedAttribute>82E1037A-464C-E354-41AB-94099C3F536B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_regiao" id="68540C29-6005-7338-A4D4-214FE71A41E5">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-24 18:46:05 UTC</createdTime>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<engineerTo>
+<item key="1FAD93A5-61CE-92D8-3CD2-779C439119F8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_regiao" id="0626C8B8-4FB4-2778-2258-44EB1F29C6CD">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-24 18:46:27 UTC</createdTime>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<engineerTo>
+<item key="1FAD93A5-61CE-92D8-3CD2-779C439119F8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="243D4428-89CE-E36F-EE65-E7CA0312A74E" name="T_CNF_REGIAO PK">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-24 18:46:45 UTC</createdTime>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<engineerTo>
+<item key="1FAD93A5-61CE-92D8-3CD2-779C439119F8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BBB61C38-9B96-C940-8885-533090061FE4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

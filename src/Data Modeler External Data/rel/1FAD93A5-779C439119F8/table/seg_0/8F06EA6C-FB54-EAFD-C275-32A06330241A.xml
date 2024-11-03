@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F06EA6C-FB54-EAFD-C275-32A06330241A" name="T_CNF_PERIODO_ANO">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<ordsAlias>participa</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_periodo" id="734504AD-B61A-EECA-BCC1-A06C10BECF46">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F01096F7-A7A0-6D74-5D8C-26D6FB1CCDBE" referredColumn="4011451E-70B8-9262-A2A6-C646BD7E1410"/>
+</associations>
+</Column>
+<Column name="cd_ano" id="63D4BD08-936A-4443-104E-77AAE9DE2DA0">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D8F219F-0B9B-25FE-4E9D-4FF4B078C2FD" referredColumn="235F2F49-85F2-6CB5-4846-5C20718D224B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="144D1D69-3925-2D4A-B257-CABFB9174999" name="participa_PK">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="734504AD-B61A-EECA-BCC1-A06C10BECF46"/>
+<colUsage columnID="63D4BD08-936A-4443-104E-77AAE9DE2DA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB2B8A48-3E98-5D42-4D52-3D4D12CDB1C7" name="T_CNF_PERIODO_FK">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<generatorID>1B988FA9-A541-47B4-256A-B21B10FF60EC</generatorID>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="734504AD-B61A-EECA-BCC1-A06C10BECF46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="648B2955-5A61-2383-7A06-753D7B30B3CA" name="T_CNF_ANO_FK">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<generatorID>1B988FA9-A541-47B4-256A-B21B10FF60EC</generatorID>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63D4BD08-936A-4443-104E-77AAE9DE2DA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

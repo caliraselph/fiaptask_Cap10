@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="443AFCE7-EB7F-6195-7631-3180DC87AFDE" name="T_AGRO_SEGMENTO">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<generatorID>5E052A46-916C-839B-5A23-86DC92BD4767</generatorID>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_segmento" id="02F23AC5-5A0B-D652-2E12-5DC3E56188F1">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<generatorID>DBD085CA-65D0-3CF5-D21F-D4529E895E53</generatorID>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_segmento" id="91F0BFAA-BA62-C842-C118-02816BAE4992">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<generatorID>F8E3DC94-406E-4E86-423B-D5DF86F311DA</generatorID>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_ordem" id="84822722-4727-D1C7-DCF8-AF3F8FF81CF2">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<generatorID>40452AE3-D15C-6ED7-2073-80C6B8B63ED8</generatorID>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A6062126-6D3F-54A4-70B5-478764509164" name="T_AGRO_SEGMENTO_PK">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<generatorID>2F6597F5-D3BF-1AF7-92A1-EA80A4F211DC</generatorID>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02F23AC5-5A0B-D652-2E12-5DC3E56188F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,212 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="774FB6D7-6DCA-5447-AF28-A0B811EC94F4" name="T_AGRO_SAFRA">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<generatorID>D208C9CD-70E4-9B2C-AC0B-701639F50CDE</generatorID>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_safra" id="41BD6507-5500-6EC4-F5D1-7CE0FD334847">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<generatorID>E76379FC-D5C6-258E-0E01-2069CDE1D748</generatorID>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_relatorio" id="1D3860AC-4FF3-48BF-E650-FD0820CAAB4C">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<generatorID>6BAFE2CE-95F0-7C9B-4F0A-EFFB9670DA65</generatorID>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B0323C5-F3F4-E37F-B639-922DFA054C2C" referredColumn="44357B55-06D1-72BF-6B2C-C434C36D1441"/>
+</associations>
+</Column>
+<Column name="cd_periodo" id="CFD861B3-4FC3-4FF8-2085-A6E3B25D2CF0">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<generatorID>52024DD1-5F23-DDF8-C5B6-909854F3825D</generatorID>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F73D881B-98C7-4AC2-6175-0BC06468985E" referredColumn="4011451E-70B8-9262-A2A6-C646BD7E1410"/>
+</associations>
+</Column>
+<Column name="cd_segmento" id="A87F597C-9ABC-ADCA-A9C8-BE96FDFC7F13">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<generatorID>22ABCAED-8228-AB9D-E30D-6620EF28346A</generatorID>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B07AB4E5-293B-3A92-53C1-B74D76E2A34D" referredColumn="02F23AC5-5A0B-D652-2E12-5DC3E56188F1"/>
+</associations>
+</Column>
+<Column name="cd_produto" id="0C327BB6-8CB2-9662-0D36-E11F9602742F">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<generatorID>CE2F157E-8519-5C44-2830-009B5822F4CF</generatorID>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3511D38C-F4FE-3C02-6A94-F85939E853EC" referredColumn="6AA63697-A738-4AD3-DACC-AB584CC663B3"/>
+</associations>
+</Column>
+<Column name="cd_estado" id="75686644-CF42-D66A-7E04-6A72FA0A486E">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<generatorID>C9D6186A-EB76-8004-7A29-22816FD567B8</generatorID>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E28436A4-3DF3-EFB1-5026-C545CC0DA1B4" referredColumn="11C1B097-F706-0FA8-0096-B57D634C6BC5"/>
+</associations>
+</Column>
+<Column name="vl_area" id="8CEF091D-D642-F295-682F-A60B02400088">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<generatorID>405BD6C9-955D-801E-A266-03F7BB53B8EE</generatorID>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_produt" id="FAF26F51-3B41-B1E9-B0A6-2DA89EEA83E2">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<generatorID>7C31E858-DA6C-A3F7-DFC0-03624CC348E6</generatorID>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_produc" id="203BEC72-44E4-A5A4-FAE9-A95CCBDA99FA">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<generatorID>87A398DC-A0CD-3988-8B3D-08838E75BD86</generatorID>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="13E126DD-6AE9-16B3-D965-65DED8A9FEE7" name="T_AGRO_SAFRA_PK">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<generatorID>3A637822-88E9-8F80-D3EC-968FC4280115</generatorID>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41BD6507-5500-6EC4-F5D1-7CE0FD334847"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31E68455-7CD7-BEFD-D7E7-0E228DD71598" name="T_AGRO_PRODUTO_FK">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<generatorID>1DDA75E0-94A4-7044-5745-3AA7DED4B09E</generatorID>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C327BB6-8CB2-9662-0D36-E11F9602742F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00E2C99D-C45E-EA0D-9BDB-BCDA2BF00065" name="T_AGRO_RELATORIO_FK">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<generatorID>25F0E511-FE63-4A68-9050-89E1E56DBD9C</generatorID>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D3860AC-4FF3-48BF-E650-FD0820CAAB4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="940CEFD9-2F92-7A95-51A3-126B95199EA3" name="T_CNF_ESTADO_FK">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<generatorID>5BA39ADB-2E64-A904-AE50-0B93932DC8B7</generatorID>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75686644-CF42-D66A-7E04-6A72FA0A486E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2CFA7796-3852-9D14-E900-58F5524E7BC6" name="T_AGRO_SEGMENTO_FK">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<generatorID>295647D4-4818-053B-DC24-C3636DA842AD</generatorID>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A87F597C-9ABC-ADCA-A9C8-BE96FDFC7F13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F93C1783-66CB-7C15-9DB0-6E8150618C64" name="T_CNF_PERIODO_FKv2">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<generatorID>7A68A544-43E4-2995-A9DB-E44B4F9C7B0E</generatorID>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFD861B3-4FC3-4FF8-2085-A6E3B25D2CF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

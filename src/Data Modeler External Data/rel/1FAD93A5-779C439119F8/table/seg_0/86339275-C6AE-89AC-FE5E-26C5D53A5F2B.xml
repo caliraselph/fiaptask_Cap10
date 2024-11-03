@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86339275-C6AE-89AC-FE5E-26C5D53A5F2B" name="T_CNF_PAIS">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<generatorID>D5650A66-435D-5D23-C065-9626572DD2DE</generatorID>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_pais" id="4205ACFF-455E-633E-2024-232EF5939731">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<generatorID>82E1037A-464C-E354-41AB-94099C3F536B</generatorID>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_pais" id="04D60A2D-65D6-AB9B-EC20-FECB90462C62">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<generatorID>E5B05A98-B64A-CF95-613A-54CD6DB2351D</generatorID>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_pais" id="9BF35602-FB43-5315-47D8-CCA90F0B0C8E">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<generatorID>211E5B71-8D28-8971-AB09-0F4FA287A18F</generatorID>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F00D2696-795E-C86C-5DA9-8163F7D3D1FD" name="T_CNF_PAIS_PK">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<generatorID>1B7B768B-666D-74FA-D7BF-48EBA40B6C21</generatorID>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4205ACFF-455E-633E-2024-232EF5939731"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

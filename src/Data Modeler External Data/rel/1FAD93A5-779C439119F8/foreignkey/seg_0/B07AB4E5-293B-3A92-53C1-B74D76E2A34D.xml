@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B07AB4E5-293B-3A92-53C1-B74D76E2A34D" containerWithKeyObject="774FB6D7-6DCA-5447-AF28-A0B811EC94F4" localFKIndex="2CFA7796-3852-9D14-E900-58F5524E7BC6" name="T_AGRO_SEGMENTO_FK">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-27 16:52:44 UTC</createdTime>
+<generatorID>295647D4-4818-053B-DC24-C3636DA842AD</generatorID>
+<ownerDesignName>Data Modeler External Data</ownerDesignName>
+<referredTableLongName>T_AGRO_SEGMENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>443AFCE7-EB7F-6195-7631-3180DC87AFDE</referredTableID>
+<keyObject>A6062126-6D3F-54A4-70B5-478764509164</keyObject>
+<referredKeyID>A6062126-6D3F-54A4-70B5-478764509164</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_segmento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
