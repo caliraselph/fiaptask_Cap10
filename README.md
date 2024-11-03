@@ -1,21 +1,21 @@
 # FIAP - Faculdade de Informática e Administração Paulista
 
 <p align="center">
-<a href= "https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=40% height=40%></a>
+<a href= "https://www.fiap.com.br/"><img src="assets/logo_fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=40% height=40%></a>
 </p>
 
 <br>
 
 # Nome do projeto
-Enterprise Challenge - Sprint 1 - Solubio
+Cap 10 - Explorando SQL e tipos de dados na Oracle
 
 ## Nome do grupo
-Grupo 41
+Grupo 42
 
 ## 👨‍🎓 Integrantes: 
 - <a href="https://www.linkedin.com/in/">Ana Beatriz Duarte Domingues</a>
 - <a href="https://www.linkedin.com/in/jrsilva051/">Junior Rodrigues da Silva</a>
-- <a href="https://www.linkedin.com/in/">Carlos Emilio Castillo Estrada</a>
+- <a href="https://www.linkedin.com/in/carlos-emilio-castillo-estrada-a555161b5/">Carlos Emilio Castillo Estrada</a>
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
@@ -26,19 +26,29 @@ Grupo 41
 
 ## 📜 Descrição
 
-*Criação da arquitetura de solução para o chatbot da Dra. Jô considerando os siguentes aspectos técnicos:*
+*Modelagem de dados para trabalhar com as informações da CONAB, visando gerar consultas sobre área (mil ha), produtividade (kg/ha) e produção (mil t) de diversas culturas no Brasil. Os dados são extraídos de planilhas Excel que contêm diferentes tipos de relatórios, segmentados por período, país, regiões e estados.*
 
-- Definição do objetivo e escopo.
-- Tipo de chatbot.
-- Camadas da arquitetura.
-- Cuidados e boas práticas: sabe-se que dados de treinamento de qualidade são essenciais para chatbots baseados em IA.
-- Tecnologias integradas.
+Foram realizadas as seguintes tarefas para a construção das consultas SQL:
+- Diagrama Entidade-Relacionamento (MER).
+- Diagrama do Modelo Relacional.
+- Código SQL para criação das tabelas.
+- Consultas SQL solicitadas.
+- Dicionário de dados.
 
-  <img width="383" alt="image" src="https://github.com/user-attachments/assets/b59feb53-91a5-41c8-b96b-ae3d3a69965e">
+<img width="707" alt="image" src="https://github.com/user-attachments/assets/5c3f54ef-98fe-4dc7-bc24-6b30d1bdb3b7">
+
   
-  *Imagen da arquitetura de solução do documento pdf anexo na raiz "Proposta de Arquitetura para Chatbot Solubio.pdf"
+  *Imagen do Diagrama do Modelo Relacional "Tabelas do Sistema de Dados de Produção Agrícola"
+
+<img width="771" alt="image" src="https://github.com/user-attachments/assets/99ceebe4-6895-4e40-b2ea-2bbe007d5893">
 
 
+ *Imagen do Diagrama Entidade-Relacionamento (MER) "Tabelas do Sistema de Dados de Produção Agrícola"
+
+
+<img width="353" alt="image" src="https://github.com/user-attachments/assets/a116fce2-9844-40f8-a872-79a32dbcfb66">
+
+*Exemplo da consulta de produtividade da cultura algodão no periodo 2024-2025 por estados"
 
 ## 📁 Estrutura de pastas
 
